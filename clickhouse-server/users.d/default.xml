@@ -1,5 +1,5 @@
 <!-- /etc/clickhouse-server/config.d/users.xml -->
-<clickhouse>
+<clickhouse replace="true">
     <!-- Settings profiles -->
     <profiles>
         <!-- Default settings -->
