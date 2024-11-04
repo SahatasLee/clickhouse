@@ -16,6 +16,10 @@
             <quota>default</quota>
             <networks>
                 <ip>127.0.0.1</ip>
+                <!-- To open access from everywhere, specify:
+                    <ip>::/0</ip>
+                 -->
+                <ip>::/0</ip>
             </networks>
             <access_management>1</access_management>
             <named_collection_control>1</named_collection_control>
